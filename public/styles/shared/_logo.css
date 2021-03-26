@@ -1,0 +1,49 @@
+.introduction h5 {
+	display: block;
+	margin-top: var(--space-smaller);
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 0px;
+	position: relative;
+	text-align: center;
+	font-family: Garamond, serif;
+	color: #000000;
+	font-style: italic;
+
+}
+.introduction .avatar {
+	display: block;
+	box-sizing: border-box;
+	max-width: 100px;
+	border-radius: 50%;
+	box-shadow: 24px 2px 50px 0px #c38e70;
+	filter: drop-shadow(0 0 0rem rgb(240, 159, 159));
+	margin-bottom: var(--space-smaller);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 550px) {
+	.introduction .personal-info {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.introduction .avatar {
+		margin-right: var(--space-big);
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+	}
+	.introduction h5 {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0;
+		display: block;
+		font-size: 20px;
+		line-height: 2em;
+	}
+}

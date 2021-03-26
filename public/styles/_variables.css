@@ -1,0 +1,10 @@
+:root{
+  --color-dark-grey: #656d78;
+  --color-medium-grey: #656d78;
+  --color-light-grey: #656d78;
+  --space-smaller: 4px;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-bigger: 48px;
+}

@@ -1,0 +1,10 @@
+@import "../styles/_variables.css";
+@import "../styles/_index.css";
+@import "../styles/_about.css";
+@import "../styles/_contact.css";
+@import "../styles/_products.css";
+@import "./shared/_logo.css";
+@import "./shared/_navigation-menu.css";
+@import "./shared/_shared.css";
+@import "./shared/_footer.css";
+

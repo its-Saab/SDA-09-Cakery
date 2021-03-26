@@ -1,0 +1,77 @@
+.upper-info{
+  text-align:center;
+  text-align: center;
+  font-family: arvo;
+}
+.row{
+box-sizing: border-box;
+
+}
+textarea{
+  height:170px;
+}
+
+input[type=text], select, textarea {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid rgb(10, 10, 10);
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  opacity: 40%;
+  font-family: arvo;
+}
+
+
+input[type=submit] {
+  background-color: #c38e70;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f1ae87;
+}
+
+.container {
+  border-radius: 5px;
+  padding-right: 10px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.info-section{
+    font-size: 12px;
+    font-weight: 90;
+    text-transform: uppercase;
+    margin-bottom: var(--space-smaller);
+    padding-bottom: 5px;
+    font-family: arvo;
+}
+
+.info-section > h4{
+
+  font-family: arvo;
+  padding: auto;
+}
